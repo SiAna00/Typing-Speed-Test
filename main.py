@@ -26,7 +26,7 @@ def start_typing():
     input_field.grid(column=0, row=4, columnspan=4, padx=20, pady=20)
 
     # Count time (1 minute)
-    window.after(10000, count_wpm)
+    window.after(60000, count_wpm)
 
 
 # Create GUI with Tkinter
