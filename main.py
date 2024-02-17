@@ -34,7 +34,7 @@ window = Tk()
 window.title("Typing Speed Test")
 window.configure(bg="SlateBlue2", padx=100, pady=100)
 
-image = PhotoImage(file="/mnt/c/Users/asimi/Desktop/typing_machine.png")
+image = PhotoImage(file="typing_machine.png")
 image_label = Label(window, image=image)
 image_label.grid(column=2, row=0, columnspan=2, rowspan=2, pady=20, padx=20)
 
